@@ -2,6 +2,6 @@
   "motor.Dir.CW|block": "正转",
   "motor.Dir.CCW|block": "反转",
   "motor.executeMotor|block": "电机|%index|方向|%Dir|速度|%speed",
-  "motor.openMotor|block": "打开电机模式",
+  "motor.motor_openMotor|block": "打开电机模式",
   "motor.closeMotor|block": "关闭电机模式"
 }

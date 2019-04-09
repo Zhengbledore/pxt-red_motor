@@ -14,9 +14,9 @@
  */
 
 /**
- *This is DFRobot:motor user motor and steering control function.
+ *This is red motor user motor and steering control function.
  */
-//% weight=10 color=#DF6721 icon="\uf013" block="DF-Driver"
+//% weight=10 color=#DF6721 icon="\uf013" block="红色电机驱动模块"
 namespace motor {
 
     /**
