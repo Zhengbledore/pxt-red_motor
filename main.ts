@@ -16,7 +16,7 @@
 /**
  *This is red motor user motor and steering control function.
  */
-//% weight=10 color=#DF6721 icon="\uf013" block="红色电机驱动模块"
+//% weight=10 color=#ff3300 icon="\uf013" block="红色电机驱动模块"
 namespace motor {
 
     /**
@@ -72,6 +72,7 @@ namespace motor {
     export function executeMotor(index: Motors, direction:Dir, speed: number): void {
 
         if(!motorStatus){
+            speed = speed * 10
             if(index == 0x1){
                 pins.analogWritePin(AnalogPin.P1, speed)
 
