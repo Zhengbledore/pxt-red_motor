@@ -1,7 +1,7 @@
 {
   "name": "red motor",
   "version": "0.0.1",
-  "description": "这是红色电机驱动模块.",
+  "description": "红色电机驱动模块.",
   "license": "GNU",
   "dependencies": {
     "core": "*",
