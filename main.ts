@@ -41,7 +41,7 @@ namespace motor {
      * open the dc motor.
      */
     //% weight=20
-    //% blockId=motor_openMotor block="开启电机模式 open|%index"
+    //% blockId=motor_openMotor block="开启电机模式|%index"
     export function openMotor(): void{
         pins.digitalWritePin(DigitalPin.P14, 1)
     }
