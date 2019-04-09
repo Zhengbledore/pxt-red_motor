@@ -50,7 +50,7 @@ namespace motor {
      * close the dc motor.
      */
     //% weight=20
-    //% blockId=motor_closeMotor block="Motor close|%index"
+    //% blockId=motor_closeMotor block="关闭电机模式|%index"
     export function closeMotor(): void{
         pins.digitalWritePin(DigitalPin.P14, 0)
     }
@@ -65,7 +65,7 @@ namespace motor {
      * speed(0~255).
      */
     //% weight=90
-    //% blockId=motor_executeMotor block="Motor|%index|dir|%Dir|speed|%speed"
+    //% blockId=motor_executeMotor block="运行电机|%index|dir|%Dir|speed|%speed"
     //% speed.min=0 speed.max=100
     //% index.fieldEditor="gridpicker" index.fieldOptions.columns=2
     //% direction.fieldEditor="gridpicker" direction.fieldOptions.columns=2
