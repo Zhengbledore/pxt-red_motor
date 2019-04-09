@@ -31,9 +31,9 @@ namespace motor {
      * 电机电流方向.
      */
     export enum Dir {
-        //% blockId="CW" block="CW"
+        //% blockId="CW" block="正向"
         CW = 1,
-            //% blockId="CCW" block="CCW"
+            //% blockId="CCW" block="反向"
         CCW = -1,
     }
 
@@ -41,7 +41,7 @@ namespace motor {
      * open the dc motor.
      */
     //% weight=20
-    //% blockId=motor_openMotor block="Motor open|%index"
+    //% blockId=motor_openMotor block="开启电机模式 open|%index"
     export function openMotor(): void{
         pins.digitalWritePin(DigitalPin.P14, 1)
     }
